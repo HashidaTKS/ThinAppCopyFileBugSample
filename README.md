@@ -18,7 +18,8 @@ Windows11 22H2上で、ThinAppで仮想化されたファイルをC++の::CopyFi
 
 * 上記の環境を用意する。
 * CopyFileSampleNをRelease/x64でビルドする
-* ビルドして出来たCopyFileSampleN.exeを`C:\CopyFileSample`に配置する
+* ビルドして出来た`CopyFileSampleN\x64\CopyFileSampleN.exe`を`C:\CopyFileSample`に配置する
+  * 簡単のため、予めビルドしたCopyFileSampleN.exeをバージョン管理に登録済み。そちらを使って良い。
 * `Project\build.bat`を実行する
 * `Project\bin\CopyFileSample.exe`ができるので実行する
 * `%LOCALAPPDATA%\Thinstall\CopyFileSample\%drive_C%\CopyFileSample\testfile_copied.txt`ができるので中身を確認する
