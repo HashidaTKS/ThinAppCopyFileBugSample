@@ -45,5 +45,3 @@ This is a test target file of `CopyFile`.
 
 CopyFileSample.exeが実際に見に行っている`testfile.txt`の実体はThinAppによって仮想化されるので見えない。
 仮想化されているので、CopyFileSample.exeが実際にファイルをコピーする先は`C:\CopyFileSample\testfile_copied.txt`ではなく`%LOCALAPPDATA%\Thinstall\CopyFileSample\%drive_C%\CopyFileSample\testfile_copied.txt`となる。
-
-ファイルをコピーするだけなので、
