@@ -7,8 +7,8 @@ When copying a file virtualized by ThinApp using ::CopyFile of C++ in the follow
 This is a sample repository to reproduce this issue.
 
 * Windows 11 22H2
-* Windows 10 21H2 installed update KB5026361
-  * https://support.microsoft.com/en-us/topic/may-9-2023-kb5026361-os-builds-19042-2965-19044-2965-and-19045-2965-3edafffe-c3cc-4010-af43-2097c84c9437
+* Windows 10 21H2 installed update KB5025221
+  * https://support.microsoft.com/en-us/topic/april-11-2023-kb5025221-os-builds-19042-2846-19044-2846-and-19045-2846-b00c3356-baac-4a41-8342-7f97ec83445a
 
 ## How to reproduce 
 
